@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RE-start</title>
+  </head>
+  <body>
+    <h1>Create An Account</h1>
+    <form>
+      First name <input required placeholder="First Name" type="text" /><br />
+      Last name <input required placeholder="Last Name" type="text" /><br />
+      Email <input required placeholder="Email" type="email" /><br />
+      Username <input required placeholder="Username" type="text" /><br />
+      Password
+      <input
+        required
+        placeholder="Password"
+        minlength="10"
+        type="password"
+      /><br />
+      Birth data <input required placeholder="First Name" type="date" /><br />
+      How happy are you?
+      <input placeholder="First Name" type="range" list="tickmarks" />
+      <datalist id="tickmarks">
+        <option value="0"></option>
+        <option value="10"></option>
+        <option value="20"></option>
+        <option value="30"></option>
+        <option value="40"></option>
+        <option value="50"></option>
+        <option value="60"></option>
+        <option value="70"></option>
+        <option value="80"></option>
+        <option value="90"></option>
+        <option value="100"></option>
+      </datalist>
+      <br />
+      What is yout fav.color?<input
+        placeholder="First Name"
+        type="color"
+      /><br />
+      <input type="submit" value="Create Account" />
+    </form>
+  </body>
+</html>
